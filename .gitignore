@@ -2,10 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-MediciEscapee/[Ll]ibrary/
-MediciEscapee/[Tt]emp/
-MediciEscapee/[Oo]bj/
-MediciEscapee/[Ll]ogs/
+ARProjectTest/[Ll]ibrary/
+ARProjectTest/[Tt]emp/
+ARProjectTest/[Oo]bj/
+ARProjectTest/[Ll]ogs/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
