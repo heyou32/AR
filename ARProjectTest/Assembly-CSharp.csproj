@@ -57,8 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\TitleScene.cs" />
+    <Compile Include="Assets\Scripts\GameScene.cs" />
+    <Compile Include="Assets\Scripts\DontDestroy.cs" />
+    <Compile Include="Assets\Scripts\Manager.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\RealisticMobileCars - Pro 3D Models\Vehicles\RMCar01\README.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
