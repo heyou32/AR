@@ -2059,3 +2059,334 @@ Total: 1.567900 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.042800 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 1.801400 ms (FindLiveObjects: 0.174400 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.524000 ms  DeleteObjects: 0.055000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1851.537719 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/buttons_controls/buttons_tex
+  artifactKey: Guid(12c338c0e504cb74989a2ac8efaef1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/buttons_controls/buttons_tex using Guid(12c338c0e504cb74989a2ac8efaef1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cd55e12daec69c3ffded1ad48ec030') in 0.010978 seconds
+  Import took 0.013437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.608733 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/buttons_controls/Other
+  artifactKey: Guid(549eb42f670c12a4b99d2622796ae6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/buttons_controls/Other using Guid(549eb42f670c12a4b99d2622796ae6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781d67870f85a1911a1875f3267bf16d') in 0.007200 seconds
+  Import took 0.010736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243782 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/buttons_controls/Outlined_buttons
+  artifactKey: Guid(77a6e250bb453404fb0a8b95b6730a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/buttons_controls/Outlined_buttons using Guid(77a6e250bb453404fb0a8b95b6730a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9b23b3ff4bff3e9f866244fc59457a') in 0.009990 seconds
+  Import took 0.013414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133012 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/buttons_controls/Sliders
+  artifactKey: Guid(48a6f0d2d543e154bbda46bfe5f230dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/buttons_controls/Sliders using Guid(48a6f0d2d543e154bbda46bfe5f230dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ddf8f2b811d35182065e4ff4714fc0') in 0.007930 seconds
+  Import took 0.010841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132503 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/font
+  artifactKey: Guid(0ff303aa927a9b6429efbbdd37730f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/font using Guid(0ff303aa927a9b6429efbbdd37730f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3e0c6c3e6c86dc76f7dfd7e2fac7fc') in 0.008032 seconds
+  Import took 0.010625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162133 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/game_assets
+  artifactKey: Guid(ff80a3e84d511494b85ee56db2a9f5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/game_assets using Guid(ff80a3e84d511494b85ee56db2a9f5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb80f1302c489adf4e6bee652c42ae4a') in 0.011435 seconds
+  Import took 0.014820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/game_assets
+  artifactKey: Guid(ff80a3e84d511494b85ee56db2a9f5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/game_assets using Guid(ff80a3e84d511494b85ee56db2a9f5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb80f1302c489adf4e6bee652c42ae4a') in 0.002711 seconds
+  Import took 0.005071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.235958 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px
+  artifactKey: Guid(94ad8df71e241f34a86be80c3e3ce130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px using Guid(94ad8df71e241f34a86be80c3e3ce130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8e5934ef383cd97556b24a2d733386') in 0.007084 seconds
+  Import took 0.009895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.337038 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/air_128x128_shine.png
+  artifactKey: Guid(820cccf3c34946b4cb64c468e9029219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/air_128x128_shine.png using Guid(820cccf3c34946b4cb64c468e9029219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cadd9aee199dbdb684b38dab66d146a') in 0.059830 seconds
+  Import took 0.062549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.108999 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/arrow_down_128x128_shine.png
+  artifactKey: Guid(63fcbe3dcc072594d89bc11f3c160610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/arrow_down_128x128_shine.png using Guid(63fcbe3dcc072594d89bc11f3c160610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b33d53e0659b11dde3adb3dce0422ee') in 0.028041 seconds
+  Import took 0.030905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.026403 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128
+  artifactKey: Guid(e8161de1ae3a98846825b3520d943a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128 using Guid(e8161de1ae3a98846825b3520d943a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8120d01fa6da630f8c7d4949ac11788d') in 0.008502 seconds
+  Import took 0.011478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.205897 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64
+  artifactKey: Guid(9b383bdea1010f44285625ebd23daba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64 using Guid(9b383bdea1010f44285625ebd23daba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3613fe2abbb85a24af47220fb8e69b') in 0.009794 seconds
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.010843 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/amulet_64x64_shine.png
+  artifactKey: Guid(308740a47b666294e830416e28c763a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/amulet_64x64_shine.png using Guid(308740a47b666294e830416e28c763a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895cd1617288e70d238469ebe82b86c8') in 0.025216 seconds
+  Import took 0.027777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.273515 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/arrow_right_128x128_shine.png
+  artifactKey: Guid(df0b95e7919cc0e47bc1cbfdf0e163be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/arrow_right_128x128_shine.png using Guid(df0b95e7919cc0e47bc1cbfdf0e163be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0388b872fffee3ee7e59faf3d37341') in 0.024069 seconds
+  Import took 0.026782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.952136 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/arrow_left_128x128_shine.png
+  artifactKey: Guid(25cca3ebe40bc44489ba1b7e2419512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/arrow_left_128x128_shine.png using Guid(25cca3ebe40bc44489ba1b7e2419512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aef74897ee8eadbc10fbd87c9bf0da7') in 0.022052 seconds
+  Import took 0.024936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.403302 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/arrow_left_32x32.png
+  artifactKey: Guid(0c30f625a263a924e82e8e3675f051f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/arrow_left_32x32.png using Guid(0c30f625a263a924e82e8e3675f051f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54751c123660e45a61624b155587142f') in 0.025415 seconds
+  Import took 0.028041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/arrow_left_256X256.png
+  artifactKey: Guid(531248f2627554f449abcdef6cd7afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/arrow_left_256X256.png using Guid(531248f2627554f449abcdef6cd7afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25bf4817c6f4f7c2aa9638889dc14af') in 0.031807 seconds
+  Import took 0.035234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/arrow_left_64x64.png
+  artifactKey: Guid(405e7fc8091cec0489b937537d2b23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/arrow_left_64x64.png using Guid(405e7fc8091cec0489b937537d2b23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6847c564ca5b480a6f881b8cb26a9f') in 0.089160 seconds
+  Import took 0.091466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/arrow_left_128x128.png
+  artifactKey: Guid(3cb2483376b5ded458289407737a6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/arrow_left_128x128.png using Guid(3cb2483376b5ded458289407737a6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8b99ec1fdc3d0f83d1ac839208ab44') in 0.027837 seconds
+  Import took 0.030704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/arrow_left_256x256_shine.png
+  artifactKey: Guid(2d758e344440cce46b913714a1b41f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/arrow_left_256x256_shine.png using Guid(2d758e344440cce46b913714a1b41f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab52bcf41c24840c15402344812f9fa') in 0.024398 seconds
+  Import took 0.027068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/arrow_left_64x64_shine.png
+  artifactKey: Guid(ab83e16801778e94285018a3139f0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/arrow_left_64x64_shine.png using Guid(ab83e16801778e94285018a3139f0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f8aafdf86d19721b0812a1061b52c5') in 0.021932 seconds
+  Import took 0.024778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/arrow_left_32x32_shine.png
+  artifactKey: Guid(12445614e4bed724baa40700a3869629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/arrow_left_32x32_shine.png using Guid(12445614e4bed724baa40700a3869629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d6586f6bdc96ed587ea5511187318d') in 0.022318 seconds
+  Import took 0.024662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013383 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/arrow_left_32x32_shine.png
+  artifactKey: Guid(12445614e4bed724baa40700a3869629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/arrow_left_32x32_shine.png using Guid(12445614e4bed724baa40700a3869629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d6586f6bdc96ed587ea5511187318d') in 0.008344 seconds
+  Import took 0.010832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998974 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/arrow_left_512x512.png
+  artifactKey: Guid(cf20d113dadfe7a46859e8aa34986d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/arrow_left_512x512.png using Guid(cf20d113dadfe7a46859e8aa34986d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd343a80acc660dd28b5e609a6ddef575') in 0.038795 seconds
+  Import took 0.041802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/32x32px/arrow_left__32x32px.png
+  artifactKey: Guid(ab8e1c0415d60d14596b0ba985fbe6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/32x32px/arrow_left__32x32px.png using Guid(ab8e1c0415d60d14596b0ba985fbe6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b78b0c2b1a27e4993889eaa02edf35') in 0.025876 seconds
+  Import took 0.029083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/arrow_left_512x512_shine.png
+  artifactKey: Guid(10b33943f4c1a6e4394307ef5e1a6f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/arrow_left_512x512_shine.png using Guid(10b33943f4c1a6e4394307ef5e1a6f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7704ab1236b9a6524eefaa2859d28845') in 0.032433 seconds
+  Import took 0.035162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/32x32px/arrow_left__32x32px.png
+  artifactKey: Guid(4e7c3379a2eb97b43a042401deef48b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/32x32px/arrow_left__32x32px.png using Guid(4e7c3379a2eb97b43a042401deef48b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115d26ab321663cd87bea1ac7227dc24') in 0.017846 seconds
+  Import took 0.020602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142861 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/64x64px/arrow_left__64x64px.png
+  artifactKey: Guid(6690c7faf757b40408c5078164f08911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/64x64px/arrow_left__64x64px.png using Guid(6690c7faf757b40408c5078164f08911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876611e558a4ec31de446c790c458e7a') in 0.023232 seconds
+  Import took 0.025854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/128x128px/arrow_left__128x128px.png
+  artifactKey: Guid(f2acd48e5766e624fb67b7764b8b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/128x128px/arrow_left__128x128px.png using Guid(f2acd48e5766e624fb67b7764b8b7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e370893ce6f199d3a432733a1605452') in 0.028162 seconds
+  Import took 0.031152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/128x128px/arrow_left__128x128px.png
+  artifactKey: Guid(2e7845129c382d646b686d80c7a86196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/128x128px/arrow_left__128x128px.png using Guid(2e7845129c382d646b686d80c7a86196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1a2ca44804ea7d65fad1a948b89fb8') in 0.026760 seconds
+  Import took 0.029787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.280022 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/arrow_left__256x256px.png
+  artifactKey: Guid(44756f39109f0c74baae293142b611ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/arrow_left__256x256px.png using Guid(44756f39109f0c74baae293142b611ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4bed4989ae82e332ccdc99b13f6d26') in 0.029834 seconds
+  Import took 0.032755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/512x512px/arrow_left__512x512px.png
+  artifactKey: Guid(1d0e16ebdd8d35e43a9b4b8798e5b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/512x512px/arrow_left__512x512px.png using Guid(1d0e16ebdd8d35e43a9b4b8798e5b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfec5f42c357424090b66ba6bf0f767') in 0.030820 seconds
+  Import took 0.033218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/512x512px/arrow_left__512x512px.png
+  artifactKey: Guid(149627376b0405e459750d7dde29a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/512x512px/arrow_left__512x512px.png using Guid(149627376b0405e459750d7dde29a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00ef0cbd09280b2a33e930bbb440ee6') in 0.026558 seconds
+  Import took 0.028892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/arrow_left__256x256px.png
+  artifactKey: Guid(44756f39109f0c74baae293142b611ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/arrow_left__256x256px.png using Guid(44756f39109f0c74baae293142b611ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4bed4989ae82e332ccdc99b13f6d26') in 0.017284 seconds
+  Import took 0.020103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/arrow_left__256x256px.png
+  artifactKey: Guid(7758df2090f750748957c7208a996b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/arrow_left__256x256px.png using Guid(7758df2090f750748957c7208a996b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5054c5bd10c677bb14223bdeb8341bcc') in 0.025016 seconds
+  Import took 0.027556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002443 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/arrow_left__256x256px.png
+  artifactKey: Guid(7758df2090f750748957c7208a996b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/arrow_left__256x256px.png using Guid(7758df2090f750748957c7208a996b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5054c5bd10c677bb14223bdeb8341bcc') in 0.018324 seconds
+  Import took 0.020668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054334 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCar01/Meshes/RMCar01.FBX
+  artifactKey: Guid(f8eca5ef0ee5f6746aee6c3467fff4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCar01/Meshes/RMCar01.FBX using Guid(f8eca5ef0ee5f6746aee6c3467fff4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebc6d566c7784af5c34ad8485bbf264') in 1.252160 seconds
+  Import took 1.255735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCar13/Meshes/RMCar13.FBX
+  artifactKey: Guid(a98aa4e39eaba9d4498243635ba7ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCar13/Meshes/RMCar13.FBX using Guid(a98aa4e39eaba9d4498243635ba7ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cbc0a0b1eab12d292a5387026bbf3d') in 0.684246 seconds
+  Import took 0.688102 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
