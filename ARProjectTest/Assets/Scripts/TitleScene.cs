@@ -12,10 +12,10 @@ public class TitleScene : MonoBehaviour
         instance = this;
     }
     #endregion
-    public GameObject []carPrefabs;
+    public GameObject[] carPrefabs;
     public Color[] colors;
     public Transform point;
-    public GameObject seleted;
+    GameObject seleted;
     bool state = true;
     bool ready;
     private void Update()
@@ -27,7 +27,7 @@ public class TitleScene : MonoBehaviour
             GameObject car = GameObject.FindWithTag("Model");
             car.transform.Rotate(new Vector3(0, 1, 0) * Time.deltaTime * 50);
         }
-        if(ready)
+        if (ready)
             seleted.transform.position = Vector3.MoveTowards(seleted.transform.position, new Vector3(0, 0, -10), 77 * Time.deltaTime);
     }
     #region Property
@@ -53,29 +53,28 @@ public class TitleScene : MonoBehaviour
     }
     #endregion
     #region Car Model
+    void Car(int a)
+    {
+        if (GameObject.FindWithTag("Model"))
+            Destroy(GameObject.FindWithTag("Model"));
+        GameObject car = Instantiate(carPrefabs[a - 1]);
+        car.transform.position = point.position;
+        car.transform.eulerAngles = new Vector3(0, 180, 0);
+    }
     public void Car1()
     {
         Model = 0;
-        if (GameObject.FindWithTag("Model"))
-            Destroy(GameObject.FindWithTag("Model"));
-        GameObject car = Instantiate(carPrefabs[0]);
-        car.transform.position = point.position;
+        Car(1);
     }
     public void Car2()
     {
         Model = 1;
-        if (GameObject.FindWithTag("Model"))
-            Destroy(GameObject.FindWithTag("Model"));
-        GameObject car = Instantiate(carPrefabs[1]);
-        car.transform.position = point.position;
+        Car(2);
     }
     public void Car3()
     {
         Model = 2;
-        if (GameObject.FindWithTag("Model"))
-            Destroy(GameObject.FindWithTag("Model"));
-        GameObject car = Instantiate(carPrefabs[2]);
-        car.transform.position = point.position;
+        Car(3);
     }
     #endregion
     #region Color
@@ -87,7 +86,7 @@ public class TitleScene : MonoBehaviour
             mats[i].GetComponent<MeshRenderer>().material.color = value;
         }
     }
-    
+
     public void Red()
     {
         COLOR = 0;
@@ -112,6 +111,11 @@ public class TitleScene : MonoBehaviour
     {
         COLOR = 4;
         ColorChange(colors[4]);
+    }
+    public void Yellow()
+    {
+        COLOR = 5;
+        ColorChange(colors[5]);
     }
     #endregion
     #region Start Button

@@ -15,11 +15,11 @@ C:/Users/B0216/Desktop/GitHub/AR/ARProjectTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58271
+61977
 Successfully changed project path to: C:/Users/B0216/Desktop/GitHub/AR/ARProjectTest
 C:/Users/B0216/Desktop/GitHub/AR/ARProjectTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,22 +35,22 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001903 seconds.
+Registered in 0.001672 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 36.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.881 seconds
+- Completed reload, in  1.542 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001387 seconds.
+Registered in 0.000925 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
@@ -59,376 +59,1685 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
+- Completed reload, in  0.826 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1438 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.9 MB.
-System memory in use after: 71.0 MB.
+Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1883.
-Total: 2.944600 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.213500 ms MarkObjects: 2.263700 ms  DeleteObjects: 0.094500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 1.840800 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.568300 ms  DeleteObjects: 0.069300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/TitleScene.cs
-  artifactKey: Guid(438bad5757687ad42abe3beed2c0d78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TitleScene.cs using Guid(438bad5757687ad42abe3beed2c0d78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdfe73dda82d3637defa69f4ffa4d25') in 0.037399 seconds
-  Import took 0.040714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 460.141014 seconds.
-  path: Assets/Scripts/TitleScene.cs
-  artifactKey: Guid(438bad5757687ad42abe3beed2c0d78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TitleScene.cs using Guid(438bad5757687ad42abe3beed2c0d78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0765a0b1a6d9f6efb1188b7e586ab556') in 0.003423 seconds
-  Import took 0.006529 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002068 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 1.969700 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.082500 ms MarkObjects: 1.665900 ms  DeleteObjects: 0.057800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000990 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.6 MB.
-System memory in use after: 70.6 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1891.
-Total: 1.876900 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.113400 ms MarkObjects: 1.535600 ms  DeleteObjects: 0.068200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 691.165808 seconds.
-  path: Assets/Scripts/TitleScene.cs
-  artifactKey: Guid(438bad5757687ad42abe3beed2c0d78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TitleScene.cs using Guid(438bad5757687ad42abe3beed2c0d78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f6a66248e41e63b1723d8c7e915dcf') in 0.004768 seconds
-  Import took 0.007172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.132975 seconds.
-  path: Assets/Scripts/GameScene.cs
-  artifactKey: Guid(d9fe4777e73f1dc4aa0bb280c1977ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScene.cs using Guid(d9fe4777e73f1dc4aa0bb280c1977ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64a36cd947e6db6c0f0b9ad29131331') in 0.006870 seconds
-  Import took 0.010184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 702.124075 seconds.
-  path: Assets/Scripts/DontDestroy.cs
-  artifactKey: Guid(7f721fc2d4a8fff49a98ff8ff03a751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DontDestroy.cs using Guid(7f721fc2d4a8fff49a98ff8ff03a751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06488cb2b2c97755b21c14682ea3630') in 0.008065 seconds
-  Import took 0.010881 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000990 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.6 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 3.488300 ms (FindLiveObjects: 0.332300 ms CreateObjectMapping: 0.118100 ms MarkObjects: 2.946200 ms  DeleteObjects: 0.090200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000924 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.6 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1900.
-Total: 2.569600 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.242400 ms  DeleteObjects: 0.074800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 183.744326 seconds.
-  path: Assets/Scripts/Manager.cs
-  artifactKey: Guid(2997eb2ca87804b439fd6ac82119df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager.cs using Guid(2997eb2ca87804b439fd6ac82119df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0e81e0590f7c5d1d8525654b5008ee') in 0.011254 seconds
-  Import took 0.014338 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001794 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.938 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1905.
-Total: 1.602400 ms (FindLiveObjects: 0.132100 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.372900 ms  DeleteObjects: 0.051400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000754 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1909.
-Total: 2.200100 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.908200 ms  DeleteObjects: 0.074700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 438.330101 seconds.
-  path: Assets/Scripts/Manager.cs
-  artifactKey: Guid(2997eb2ca87804b439fd6ac82119df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager.cs using Guid(2997eb2ca87804b439fd6ac82119df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60815a30a43dc53e193f9ece4ca8dd32') in 0.005584 seconds
-  Import took 0.008390 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000863 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1913.
-Total: 1.438600 ms (FindLiveObjects: 0.136800 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.204100 ms  DeleteObjects: 0.048100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001071 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 1.889500 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.511600 ms  DeleteObjects: 0.094600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 1.946900 ms (FindLiveObjects: 0.155500 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.662800 ms  DeleteObjects: 0.055600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 813.417326 seconds.
   path: Assets/Scenes/Title.unity
   artifactKey: Guid(e7d96350445f6b3439f4ba3dace6e588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Title.unity using Guid(e7d96350445f6b3439f4ba3dace6e588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7483875b4297d09dd7af09e1e9ac57f7') in 0.021335 seconds
-  Import took 0.025235 seconds .
+Start importing Assets/Scenes/Title.unity using Guid(e7d96350445f6b3439f4ba3dace6e588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52af42a400c5f134eb08ded65bbc18f1') in 0.017639 seconds
+  Import took 0.019992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.313318 seconds.
+  path: Assets/ArtisticMechanics/Brat/Prefabs
+  artifactKey: Guid(54900a100769e9a4ea6eacc75615b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Prefabs using Guid(54900a100769e9a4ea6eacc75615b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda7c6d16d28fcf51506c5331203e81e') in 0.006340 seconds
+  Import took 0.009348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/ArtisticMechanics/Brat/Prefabs
+  artifactKey: Guid(54900a100769e9a4ea6eacc75615b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Prefabs using Guid(54900a100769e9a4ea6eacc75615b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda7c6d16d28fcf51506c5331203e81e') in 0.002849 seconds
+  Import took 0.005126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.891062 seconds.
+  path: Assets/ArtisticMechanics/Brat/Prefabs/Sets/Brat Stand down Set.prefab
+  artifactKey: Guid(1c0ca1908d26e9b4a973dfd2a53999e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Prefabs/Sets/Brat Stand down Set.prefab using Guid(1c0ca1908d26e9b4a973dfd2a53999e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd174d4e7f948b164c3255a9f6c6f1e') in 1.479578 seconds
+  Import took 1.483110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ArtisticMechanics/Brat/Prefabs/Sets/Brat Stand up Set.prefab
+  artifactKey: Guid(44e7f5e473d61e144bfb79b854a743c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Prefabs/Sets/Brat Stand up Set.prefab using Guid(44e7f5e473d61e144bfb79b854a743c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65656ecc8d3a02795083b4314cb0d371') in 0.321553 seconds
+  Import took 0.326330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.101299 seconds.
+  path: Assets/ArtisticMechanics/Brat/Prefabs/Singles
+  artifactKey: Guid(e728b7cedcb850843a1504149e03c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Prefabs/Singles using Guid(e728b7cedcb850843a1504149e03c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b03cb996443939f446828778f0d796e') in 0.007534 seconds
+  Import took 0.010652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/ArtisticMechanics/Brat/Prefabs/Singles
+  artifactKey: Guid(e728b7cedcb850843a1504149e03c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Prefabs/Singles using Guid(e728b7cedcb850843a1504149e03c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b03cb996443939f446828778f0d796e') in 0.003438 seconds
+  Import took 0.006510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.097758 seconds.
+  path: Assets/ArtisticMechanics
+  artifactKey: Guid(758a2b4afd26f5a49af0cdb4d3861c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics using Guid(758a2b4afd26f5a49af0cdb4d3861c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e5d6e6b4c97e64f25b6798e41c97d0') in 0.006927 seconds
+  Import took 0.010481 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001340 seconds.
+Registered in 0.000775 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
+- Completed reload, in  0.680 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.0 MB.
+System memory in use after: 72.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 1.943000 ms (FindLiveObjects: 0.128100 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.721600 ms  DeleteObjects: 0.044900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 510.840860 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models
+  artifactKey: Guid(bba4f9724c6a3f84fad432b6b148a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models using Guid(bba4f9724c6a3f84fad432b6b148a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1f9a32b48ad61489e398c52ce88916') in 0.011594 seconds
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.508097 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_EU.prefab
+  artifactKey: Guid(6f39632663e189a43ba1dba6a3232eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_EU.prefab using Guid(6f39632663e189a43ba1dba6a3232eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c2370ea186dd7057db7751ad8ab6c4') in 2.983545 seconds
+  Import took 2.989061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.793939 seconds.
+  path: Assets/CarModel-1
+  artifactKey: Guid(dbf51395ffbf503479dfc6075d4323fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CarModel-1 using Guid(dbf51395ffbf503479dfc6075d4323fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea77956260ca77f7e373bfc4111e6c9') in 0.009810 seconds
+  Import took 0.013041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.561653 seconds.
+  path: Assets/drone pack
+  artifactKey: Guid(171767701357fd54192e842368524a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drone pack using Guid(171767701357fd54192e842368524a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210b4e07a544ff89912d7b2787956aa4') in 0.009636 seconds
+  Import took 0.013267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001061 seconds.
+  path: Assets/drone pack
+  artifactKey: Guid(171767701357fd54192e842368524a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drone pack using Guid(171767701357fd54192e842368524a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210b4e07a544ff89912d7b2787956aa4') in 0.003904 seconds
+  Import took 0.007108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.959454 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab
+  artifactKey: Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab using Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6206d09905d5aaf067401aec47b6521') in 0.642538 seconds
+  Import took 0.648252 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.2 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1925.
-Total: 2.052500 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.713000 ms  DeleteObjects: 0.107900 ms)
+Total: 1.758700 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.516000 ms  DeleteObjects: 0.051000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
+Received Import Request.
+  Time since last request: 35.722316 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab
+  artifactKey: Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab using Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bfe7e3a63350cc3867ebcdd039d694') in 0.632552 seconds
+  Import took 0.638119 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000816 seconds.
+Registered in 0.000866 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.740 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1929.
-Total: 1.774700 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.412500 ms  DeleteObjects: 0.123400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1930.
+Total: 1.870500 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.625400 ms  DeleteObjects: 0.054500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000827 seconds.
+Registered in 0.000793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 2.067700 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.053900 ms MarkObjects: 1.784900 ms  DeleteObjects: 0.059900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 1.920900 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.656100 ms  DeleteObjects: 0.056000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 328.450259 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab
+  artifactKey: Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab using Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca306a7d218cd6e93d396b6d9deb93ad') in 0.648012 seconds
+  Import took 0.652891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.491145 seconds.
+  path: Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCar13/Prefabs/RMCar13HighInterior_EU.prefab
+  artifactKey: Guid(cc32cdf108ca89a4da968cb7571a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticMobileCars - Pro 3D Models/Vehicles/RMCar13/Prefabs/RMCar13HighInterior_EU.prefab using Guid(cc32cdf108ca89a4da968cb7571a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9221f3fd0a7e4fcdb62518228a3c52') in 0.444551 seconds
+  Import took 0.450952 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.3 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 1.739600 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.499400 ms  DeleteObjects: 0.050700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 203.264542 seconds.
+  path: Assets/Images/CarModel
+  artifactKey: Guid(f4266850230f56d4eb1592b986baf6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel using Guid(f4266850230f56d4eb1592b986baf6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9aca7831eff28ebf410a5fbdc770f1') in 0.013144 seconds
+  Import took 0.017000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003096 seconds.
+  path: Assets/Images/CarModel
+  artifactKey: Guid(f4266850230f56d4eb1592b986baf6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel using Guid(f4266850230f56d4eb1592b986baf6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9aca7831eff28ebf410a5fbdc770f1') in 0.004041 seconds
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.777899 seconds.
+  path: Assets/Images/CarModel/1.GIF
+  artifactKey: Guid(1a2d7e746153d8b488aa17831149d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/1.GIF using Guid(1a2d7e746153d8b488aa17831149d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f40a53b775ce061c01196b9cb0fd2e') in 0.052865 seconds
+  Import took 0.055394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.364244 seconds.
+  path: Assets/Images/CarModel/2.GIF
+  artifactKey: Guid(81072d9e7d2dbb8489053ab2c33391f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/2.GIF using Guid(81072d9e7d2dbb8489053ab2c33391f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33539ab34e4265696f8874136b1e0618') in 0.025010 seconds
+  Import took 0.027931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.230407 seconds.
+  path: Assets/Images/CarModel/1.GIF
+  artifactKey: Guid(1a2d7e746153d8b488aa17831149d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/1.GIF using Guid(1a2d7e746153d8b488aa17831149d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6b7f62c2ab29ec25be8feba604cec0') in 0.037990 seconds
+  Import took 0.040797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.155169 seconds.
+  path: Assets/Images/CarModel/2.GIF
+  artifactKey: Guid(81072d9e7d2dbb8489053ab2c33391f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/2.GIF using Guid(81072d9e7d2dbb8489053ab2c33391f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53795d3249337fdb13a6cfcde3c0a180') in 0.039721 seconds
+  Import took 0.042007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.522078 seconds.
+  path: Assets/Images/CarModel/2.jpg
+  artifactKey: Guid(d15a955ebe668a54db94de518f06d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/2.jpg using Guid(d15a955ebe668a54db94de518f06d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ecab58350b0a62544df72c403fd5b0') in 0.023807 seconds
+  Import took 0.026611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.793635 seconds.
+  path: Assets/Images/CarModel/2.jpg
+  artifactKey: Guid(d15a955ebe668a54db94de518f06d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/2.jpg using Guid(d15a955ebe668a54db94de518f06d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd40a0acdecfbd620550462f237dd4c9') in 0.017507 seconds
+  Import took 0.020951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.580533 seconds.
+  path: Assets/Images/CarModel/2.jpg
+  artifactKey: Guid(d15a955ebe668a54db94de518f06d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/2.jpg using Guid(d15a955ebe668a54db94de518f06d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6756204d2f2c05f59010d7cc09aa8a5') in 0.023772 seconds
+  Import took 0.026859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.292073 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/SportCar20.FBX
+  artifactKey: Guid(f119de429d72e0b4daed64783cf54fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/SportCar20.FBX using Guid(f119de429d72e0b4daed64783cf54fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676755d9623cca0fdb429555bc1aca51') in 2.954384 seconds
+  Import took 2.960808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388933 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Z.mat
+  artifactKey: Guid(6ce98d0f4ca6b56438e4c216aeadd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Z.mat using Guid(6ce98d0f4ca6b56438e4c216aeadd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3bea0422bd817c3ee039cb92a880f0') in 0.044993 seconds
+  Import took 0.049056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Wheel.mat
+  artifactKey: Guid(37bfd96a479327144a6116a996f495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Wheel.mat using Guid(37bfd96a479327144a6116a996f495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776dd8f23a1ad907bb615d2b380a30ed') in 0.151129 seconds
+  Import took 0.154419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Y.mat
+  artifactKey: Guid(14f65aa7932ede345ba45a94a79ca991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Y.mat using Guid(14f65aa7932ede345ba45a94a79ca991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6acbb1d2f409c8946442ba5c89cb9b4') in 0.021640 seconds
+  Import took 0.024757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/WindowMetalness.mat
+  artifactKey: Guid(67a163a41b66b1144aed61f2b2161d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/WindowMetalness.mat using Guid(67a163a41b66b1144aed61f2b2161d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c57317a761f2fb73e7bc2d16d7d38a') in 0.018539 seconds
+  Import took 0.021973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.670225 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_W.mat
+  artifactKey: Guid(9d86d5e24f6322e49b8719b5baa67908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_W.mat using Guid(9d86d5e24f6322e49b8719b5baa67908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648dcfac52b251ceaef93ee9ee53a27d') in 0.024812 seconds
+  Import took 0.027917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_V.mat
+  artifactKey: Guid(5e24c7011a7e3b447a41a33c452d71d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_V.mat using Guid(5e24c7011a7e3b447a41a33c452d71d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f97eae10029033fc2359f3c8a9406d') in 0.024810 seconds
+  Import took 0.027397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_U.mat
+  artifactKey: Guid(eff0a5a964efb9a4ba0948ef89a5b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_U.mat using Guid(eff0a5a964efb9a4ba0948ef89a5b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18748202b11090a300ce2e0990819101') in 0.022311 seconds
+  Import took 0.024844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_X.mat
+  artifactKey: Guid(8851c918c3482b14d99ab8e4069d54e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_X.mat using Guid(8851c918c3482b14d99ab8e4069d54e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f385dc83088ce3e3f0dcc12e5ea8de1c') in 0.022204 seconds
+  Import took 0.024791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.455241 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_R.mat
+  artifactKey: Guid(7001606052c4dc94e9323a49442a2692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_R.mat using Guid(7001606052c4dc94e9323a49442a2692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4e97e2fa979f7c610fa0b6d9ebd102') in 0.022086 seconds
+  Import took 0.024799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_S.mat
+  artifactKey: Guid(b49ebfbb388974844996ba01a9571e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_S.mat using Guid(b49ebfbb388974844996ba01a9571e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7ab03f1b30045fd70ba55586c8e31f') in 0.023227 seconds
+  Import took 0.025660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_T.mat
+  artifactKey: Guid(2fb671687163df54ba56b1754d182a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_T.mat using Guid(2fb671687163df54ba56b1754d182a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df2d4a87e379820a1924ac9b354e056') in 0.031544 seconds
+  Import took 0.034549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_N.mat
+  artifactKey: Guid(1528ceb152eef0a4da7305d787a23035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_N.mat using Guid(1528ceb152eef0a4da7305d787a23035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c812eb22369d94221b52b8865117cb3') in 0.021471 seconds
+  Import took 0.023940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_O.mat
+  artifactKey: Guid(d1b60191050b8574cb477f167a32d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_O.mat using Guid(d1b60191050b8574cb477f167a32d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdc1e87c1ed4f3457186ec7a1b04964') in 0.025774 seconds
+  Import took 0.028447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_P.mat
+  artifactKey: Guid(61ddaa92295be2d448e84f9bb1e8637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_P.mat using Guid(61ddaa92295be2d448e84f9bb1e8637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151b4e892a6ed8b4030babfbc52a52a2') in 0.103536 seconds
+  Import took 0.106966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Q.mat
+  artifactKey: Guid(37ef16690c981a143bcdf9d000ec7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Q.mat using Guid(37ef16690c981a143bcdf9d000ec7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a82c207bee53d657e3e9a37fbce8d5') in 0.024515 seconds
+  Import took 0.027376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130729 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_L.mat
+  artifactKey: Guid(31c29775e49854e45a2f93972a90ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_L.mat using Guid(31c29775e49854e45a2f93972a90ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1d6431273d65205652ea4c5dbe4474') in 0.025504 seconds
+  Import took 0.029328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_M.mat
+  artifactKey: Guid(1b67721bcc643b6439fbdf6750c55ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_M.mat using Guid(1b67721bcc643b6439fbdf6750c55ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01034ef90025b77fa58a313391a68ea') in 0.032936 seconds
+  Import took 0.037237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_K.mat
+  artifactKey: Guid(e45706293c23c414e89a314815eead56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_K.mat using Guid(e45706293c23c414e89a314815eead56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce956ddde9b42b7c0f1501f9a8e0c3b') in 0.050581 seconds
+  Import took 0.054734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.377796 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_H.mat
+  artifactKey: Guid(733057cd843a0cf47a1bb97a0d521b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_H.mat using Guid(733057cd843a0cf47a1bb97a0d521b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde9819e5bdc89bee16e34f2e2218b6f') in 0.025663 seconds
+  Import took 0.028927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_J.mat
+  artifactKey: Guid(141fd9db2180ff8498088c02649ef055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_J.mat using Guid(141fd9db2180ff8498088c02649ef055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def30b91b9997a3895a2334f9117f6b4') in 0.022783 seconds
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_I.mat
+  artifactKey: Guid(0d661ae904a83b648b3ea536e59f4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_I.mat using Guid(0d661ae904a83b648b3ea536e59f4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75848e63fdf2fbffd636b1c2afebea9') in 0.031336 seconds
+  Import took 0.034276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_F.mat
+  artifactKey: Guid(1455bcafd7c51e44bbf16d58d4bb6c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_F.mat using Guid(1455bcafd7c51e44bbf16d58d4bb6c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dca36a019c5799dc544fe73101db8d') in 0.025291 seconds
+  Import took 0.028223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_G.mat
+  artifactKey: Guid(9b89b8ad6022eed4bb0b31d98cb438c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_G.mat using Guid(9b89b8ad6022eed4bb0b31d98cb438c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d1ea6b2609296606e4a22fc3a6624c') in 0.028866 seconds
+  Import took 0.032153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_E.mat
+  artifactKey: Guid(43b874dd22dfedb489feedf8f6771065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_E.mat using Guid(43b874dd22dfedb489feedf8f6771065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fb4a70d18af4f15d32d35cc68f33d4') in 0.033882 seconds
+  Import took 0.036935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130674 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_B.mat
+  artifactKey: Guid(4156fe5f63421094cb71c2fe7e82e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_B.mat using Guid(4156fe5f63421094cb71c2fe7e82e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c2223d75e786e2cfa6df1831047fbe') in 0.032071 seconds
+  Import took 0.035603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_A.mat
+  artifactKey: Guid(821880cdb5b22ae4b8b92bc3f196e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_A.mat using Guid(821880cdb5b22ae4b8b92bc3f196e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c93701b15d47dfda3388083910798d8') in 0.026171 seconds
+  Import took 0.029573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_C.mat
+  artifactKey: Guid(002f215f60accff45be2451ca0dbf1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_C.mat using Guid(002f215f60accff45be2451ca0dbf1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f97ac1f91b447cba21f34fbe69caa') in 0.027642 seconds
+  Import took 0.030481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_9.mat
+  artifactKey: Guid(bef8d77303a054545b27231897b18a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_9.mat using Guid(bef8d77303a054545b27231897b18a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4c6dee74dfdb939732776b68dc0da5') in 0.026226 seconds
+  Import took 0.029672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_7.mat
+  artifactKey: Guid(49de8ac77e72386488f51f1f55ef2af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_7.mat using Guid(49de8ac77e72386488f51f1f55ef2af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72cfd26f62c64e5edee502f99f54975') in 0.018447 seconds
+  Import took 0.021204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_7.mat
+  artifactKey: Guid(71c4afb7e9853d04e9bd0748ed8c759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_7.mat using Guid(71c4afb7e9853d04e9bd0748ed8c759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacc2041f9aefee8b8fbf7d91e2e0d5e') in 0.024487 seconds
+  Import took 0.027417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_8.mat
+  artifactKey: Guid(122ff55c70c327441a73da7085d49e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_8.mat using Guid(122ff55c70c327441a73da7085d49e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0c4c3287b574f5daca8f65d8ef4209') in 0.031599 seconds
+  Import took 0.034545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_D.mat
+  artifactKey: Guid(c744aeefb38b086429d2425996b29b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_D.mat using Guid(c744aeefb38b086429d2425996b29b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50928e2d57797bf155ca346b1e202e4f') in 0.027236 seconds
+  Import took 0.030322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372848 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_6.mat
+  artifactKey: Guid(bef95103f6f992340a79558c6d47e452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_6.mat using Guid(bef95103f6f992340a79558c6d47e452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5920603fc8bad6e0e0326c3fe34572') in 0.014222 seconds
+  Import took 0.018073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_6.mat
+  artifactKey: Guid(8f09aa372f1a35a4cac4f01d5416ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_6.mat using Guid(8f09aa372f1a35a4cac4f01d5416ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5d6c5e12456ecdb129d326cb8b81b0') in 0.024020 seconds
+  Import took 0.026745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045237 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_5.mat
+  artifactKey: Guid(cd0f644a3537fc14f814bd5974c2d48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_5.mat using Guid(cd0f644a3537fc14f814bd5974c2d48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e665765cc2693caf17c306f5ec1fc28') in 0.022193 seconds
+  Import took 0.024825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_5.mat
+  artifactKey: Guid(cc41f76c9826efa47be5f4af50a4f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_5.mat using Guid(cc41f76c9826efa47be5f4af50a4f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694fb34958cbf7b2e28cccbf629c96f6') in 0.017849 seconds
+  Import took 0.020230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.294984 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_4.mat
+  artifactKey: Guid(6465b763d741e46409f3c1ca6085a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_4.mat using Guid(6465b763d741e46409f3c1ca6085a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6683007fb8a44671c84ad967401d913b') in 0.012876 seconds
+  Import took 0.016151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_4.mat
+  artifactKey: Guid(d6df639b6b8240745bf04cfd69705437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_4.mat using Guid(d6df639b6b8240745bf04cfd69705437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6a8d0c02b34f182653510e2053bf84') in 0.019908 seconds
+  Import took 0.022367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_3.mat
+  artifactKey: Guid(062a23b74c9d54a40af8bd76e35e1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_3.mat using Guid(062a23b74c9d54a40af8bd76e35e1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4842b7b7bc2cb045e98587600498269e') in 0.014587 seconds
+  Import took 0.017125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_3.mat
+  artifactKey: Guid(aeba23b0a24339f4490a5e956c3b4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_3.mat using Guid(aeba23b0a24339f4490a5e956c3b4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e05b23ff22025eb9c4c9fccad52f53') in 0.020279 seconds
+  Import took 0.022897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003173 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_3.mat
+  artifactKey: Guid(062a23b74c9d54a40af8bd76e35e1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_3.mat using Guid(062a23b74c9d54a40af8bd76e35e1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4842b7b7bc2cb045e98587600498269e') in 0.017526 seconds
+  Import took 0.020121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234888 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_2.mat
+  artifactKey: Guid(bd700772bfdf6ab438992764a2a0a511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_2.mat using Guid(bd700772bfdf6ab438992764a2a0a511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f8a926407111b0257e7ddf62f6d43b') in 0.013638 seconds
+  Import took 0.016490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_2.mat
+  artifactKey: Guid(72adc993a955d174fb921ec111fd4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_2.mat using Guid(72adc993a955d174fb921ec111fd4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd438495161391eac8868151ff489ff8e') in 0.023163 seconds
+  Import took 0.025473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_1.mat
+  artifactKey: Guid(fbdfc4068464b064281f360c6ef2121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_1.mat using Guid(fbdfc4068464b064281f360c6ef2121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7451db2cf3d6b64613ab98b209abb3') in 0.026993 seconds
+  Import took 0.029537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_0.mat
+  artifactKey: Guid(834abcce82b5af544a677fc70295a80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_0.mat using Guid(834abcce82b5af544a677fc70295a80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1339e086d2a0532ac5bc283a22821707') in 0.023068 seconds
+  Import took 0.025844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_1.mat
+  artifactKey: Guid(85721581115123c4aa839048691bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_1.mat using Guid(85721581115123c4aa839048691bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fe624d251030c1e6ccf1efd078189e') in 0.008653 seconds
+  Import took 0.011161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011686 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_1.mat
+  artifactKey: Guid(85721581115123c4aa839048691bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Usa_Number_1.mat using Guid(85721581115123c4aa839048691bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fe624d251030c1e6ccf1efd078189e') in 0.015244 seconds
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182822 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Tire01Albedo.mat
+  artifactKey: Guid(ae153dc30d59a18488e2f8e2f27986f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Tire01Albedo.mat using Guid(ae153dc30d59a18488e2f8e2f27986f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e43238b2acbf506f5f35126ffe3e67b') in 0.046883 seconds
+  Import took 0.049875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_-.mat
+  artifactKey: Guid(923c51bc30b7e2e4b8d32d2ad3dd257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_-.mat using Guid(923c51bc30b7e2e4b8d32d2ad3dd257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4fc11abe5d550a1cec52c4ac08da68') in 0.020639 seconds
+  Import took 0.023043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.414266 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_5.mat
+  artifactKey: Guid(a764aee1e3db4ff45a455e718b72aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_5.mat using Guid(a764aee1e3db4ff45a455e718b72aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fd291e403d8620e246a9dd80384e4b') in 0.016894 seconds
+  Import took 0.019908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_7.mat
+  artifactKey: Guid(7270bb17f2c62424cbeb7c1471cdfc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_7.mat using Guid(7270bb17f2c62424cbeb7c1471cdfc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc4571d80112ef8cde1c13ecd33747') in 0.015481 seconds
+  Import took 0.018098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_6.mat
+  artifactKey: Guid(6655a7fea1a438f41b1668f84bc4349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_6.mat using Guid(6655a7fea1a438f41b1668f84bc4349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d19c40f62fe31ebf1d3761701cef11f') in 0.016989 seconds
+  Import took 0.019932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_4.mat
+  artifactKey: Guid(bf75f96291559b541842b219e5e6dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_4.mat using Guid(bf75f96291559b541842b219e5e6dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83661dd618b63a8fa0a30256b7b3643') in 0.017309 seconds
+  Import took 0.020061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250929 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_3.mat
+  artifactKey: Guid(ca68963d4253f2441b7cff2018753711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_3.mat using Guid(ca68963d4253f2441b7cff2018753711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf621889c2e4452babe652c6c16c93f') in 0.023312 seconds
+  Import took 0.026961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_1.mat
+  artifactKey: Guid(3420d1493ec4ea24da0475630dd2b202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_1.mat using Guid(3420d1493ec4ea24da0475630dd2b202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1f86cdcc291bf778858cbb298f035b') in 0.015067 seconds
+  Import took 0.017975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402110 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/LightOn.mat
+  artifactKey: Guid(6bfb8cbbad7a0a446b75972933d04c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/LightOn.mat using Guid(6bfb8cbbad7a0a446b75972933d04c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba23f422d37f1be089501ae3f59a079') in 0.026026 seconds
+  Import took 0.028644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_0.mat
+  artifactKey: Guid(40470b0427877c54b8a1760637a59b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Number_0.mat using Guid(40470b0427877c54b8a1760637a59b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807428a40abc309ec994351dec74c5a8') in 0.016887 seconds
+  Import took 0.019592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/MainAlbedo.mat
+  artifactKey: Guid(c10b5d8ae76fb1f44a676fe3f1b41f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/MainAlbedo.mat using Guid(c10b5d8ae76fb1f44a676fe3f1b41f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06c4fc458ae34613807cb176976a57d') in 0.082998 seconds
+  Import took 0.085926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Glass.mat
+  artifactKey: Guid(30d0eba5f4d2b3a43a11d22198e57a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/Glass.mat using Guid(30d0eba5f4d2b3a43a11d22198e57a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2002fcf09ee661fe5c6e510d62689986') in 0.018086 seconds
+  Import took 0.020504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/LicensePlateEuAlbedo.mat
+  artifactKey: Guid(db99a13ef60c2704394ad0f69f588b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/LicensePlateEuAlbedo.mat using Guid(db99a13ef60c2704394ad0f69f588b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a563a8252c48e74579f6ebb574d238') in 0.028862 seconds
+  Import took 0.031198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/LicensePlateUsAlbedo.mat
+  artifactKey: Guid(afa993407efe3d9458380642206b58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/LicensePlateUsAlbedo.mat using Guid(afa993407efe3d9458380642206b58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00488b8a3fc7420d0324d3b700e1d519') in 0.035492 seconds
+  Import took 0.038253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Z.mat
+  artifactKey: Guid(2179fc51122966644beadfa5a1916212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Z.mat using Guid(2179fc51122966644beadfa5a1916212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e5793092e13f7c92fb8392c127dc0f') in 0.022935 seconds
+  Import took 0.026014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069650 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_X.mat
+  artifactKey: Guid(212a924f355dbbb45925ac2db45f241b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_X.mat using Guid(212a924f355dbbb45925ac2db45f241b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268ed1b727d4632e50ce42fcff72f554') in 0.028850 seconds
+  Import took 0.031574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_W.mat
+  artifactKey: Guid(12b56126643da6144ace9de79215fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_W.mat using Guid(12b56126643da6144ace9de79215fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52adc0ac07eb8ebf0f8a25701f31ad93') in 0.027022 seconds
+  Import took 0.030308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_U.mat
+  artifactKey: Guid(4dadd630fd3a3ac4991df7784282eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_U.mat using Guid(4dadd630fd3a3ac4991df7784282eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7e939744a9df3b1724450d8b89df4c') in 0.036301 seconds
+  Import took 0.039231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_V.mat
+  artifactKey: Guid(8f006dcc5fc939b4aadb6ff7d61e25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_V.mat using Guid(8f006dcc5fc939b4aadb6ff7d61e25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5645079efe18542eda0751707149d01') in 0.037828 seconds
+  Import took 0.041211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Y.mat
+  artifactKey: Guid(465c790762d12954398af879e47925f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Y.mat using Guid(465c790762d12954398af879e47925f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79674f8590101a2fa5aa542bafdbc76') in 0.028080 seconds
+  Import took 0.030884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_T.mat
+  artifactKey: Guid(3d73aad28c3ae5b4faae93a07bed129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_T.mat using Guid(3d73aad28c3ae5b4faae93a07bed129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86836106d42c4bd71199cf0e2b17a76f') in 0.021346 seconds
+  Import took 0.024511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.273473 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_S.mat
+  artifactKey: Guid(6595c00481d75ad46bee797278dfc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_S.mat using Guid(6595c00481d75ad46bee797278dfc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e264dcfb499ddb83f96328764e358e16') in 0.022385 seconds
+  Import took 0.025273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004609 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_P.mat
+  artifactKey: Guid(1f29556762d98084daaea382c96c6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_P.mat using Guid(1f29556762d98084daaea382c96c6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef4f6a590c0859e1200a0e43e4a5a9d') in 0.026291 seconds
+  Import took 0.029993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Q.mat
+  artifactKey: Guid(b2510a07757da8f49a8512d069c64442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Q.mat using Guid(b2510a07757da8f49a8512d069c64442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a3f7c8efe1e70f200edeb9ab7f714b') in 0.023292 seconds
+  Import took 0.026721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_R.mat
+  artifactKey: Guid(f1f082c5069e2ad4fa2317680a8e8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_R.mat using Guid(f1f082c5069e2ad4fa2317680a8e8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8159fd4d9991964df726412203c5ec') in 0.027494 seconds
+  Import took 0.030664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002359 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_N.mat
+  artifactKey: Guid(5cd413fdd448b924abba62ad01ca5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_N.mat using Guid(5cd413fdd448b924abba62ad01ca5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3731682a784e632a2328a92a4ec3262d') in 0.027834 seconds
+  Import took 0.031558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_O.mat
+  artifactKey: Guid(650c397a80ff9984390119484e8a3f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_O.mat using Guid(650c397a80ff9984390119484e8a3f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67dd3cf235909c31bfd8a04bfdf10ab') in 0.027850 seconds
+  Import took 0.030945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020466 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_M.mat
+  artifactKey: Guid(d97331bb562e1b14badc51ad36f2e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_M.mat using Guid(d97331bb562e1b14badc51ad36f2e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dd4757b93fa9fff3dc5c26cec9ae2a') in 0.026578 seconds
+  Import took 0.029808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321514 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_J.mat
+  artifactKey: Guid(5fa2aa579abd9b84bb1e89c9763b2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_J.mat using Guid(5fa2aa579abd9b84bb1e89c9763b2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f18b4bffecd858b37f26d1484ac001') in 0.023483 seconds
+  Import took 0.026388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat
+  artifactKey: Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat using Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3f69a4e2de92d0e7803b1f6d38aae2') in 0.024888 seconds
+  Import took 0.027310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat
+  artifactKey: Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat using Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454731ebca729eb4c545407637a851f1') in 0.020377 seconds
+  Import took 0.022735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018100 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat
+  artifactKey: Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat using Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5360d307ab8998bc99284ae4e57eac4f') in 0.022647 seconds
+  Import took 0.025458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_H.mat
+  artifactKey: Guid(fcac1c483fda6f94ca7c85597861ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_H.mat using Guid(fcac1c483fda6f94ca7c85597861ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e771a562686443f63b75fc28c325637') in 0.021227 seconds
+  Import took 0.024084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_I.mat
+  artifactKey: Guid(d355517730750bb4c9dc9332a941d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_I.mat using Guid(d355517730750bb4c9dc9332a941d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0253be81d2b944ae552b45182a7e062f') in 0.019926 seconds
+  Import took 0.022558 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000910 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 1.918600 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.603400 ms  DeleteObjects: 0.053600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 3.356200 ms (FindLiveObjects: 0.255700 ms CreateObjectMapping: 0.110600 ms MarkObjects: 2.915600 ms  DeleteObjects: 0.072100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 481.779433 seconds.
+  path: Assets/Scripts/Test
+  artifactKey: Guid(50e7e625a1af8814db0dab1f2cb0522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Test using Guid(50e7e625a1af8814db0dab1f2cb0522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95919f19433c83070cffc7727842b5c4') in 0.010410 seconds
+  Import took 0.013871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.504673 seconds.
+  path: Assets/Scripts/DontDestroy.cs
+  artifactKey: Guid(7f721fc2d4a8fff49a98ff8ff03a751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DontDestroy.cs using Guid(7f721fc2d4a8fff49a98ff8ff03a751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514a44198f79ee77db3bf50814eeebf5') in 0.010394 seconds
+  Import took 0.013663 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 1.603700 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.357800 ms  DeleteObjects: 0.041000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 639.352333 seconds.
+  path: Assets/Images/CarModel/캡처.GIF
+  artifactKey: Guid(dcd8af6b039375d45bbee3f1c777bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/캡처.GIF using Guid(dcd8af6b039375d45bbee3f1c777bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f87814263c8223c7b3a7f64eb7b80fe') in 0.079928 seconds
+  Import took 0.084471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003206 seconds.
+  path: Assets/Images/CarModel/캡처.GIF
+  artifactKey: Guid(dcd8af6b039375d45bbee3f1c777bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CarModel/캡처.GIF using Guid(dcd8af6b039375d45bbee3f1c777bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f87814263c8223c7b3a7f64eb7b80fe') in 0.018533 seconds
+  Import took 0.021302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.292829 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/512x512px/store__512x512px.png
+  artifactKey: Guid(443e05ae505918948b23d08dc32dac94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/512x512px/store__512x512px.png using Guid(443e05ae505918948b23d08dc32dac94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7720fe8ab2665e1491ef9bfb7d6b19ed') in 0.034159 seconds
+  Import took 0.037195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091857 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/128x128px/store__128x128px.png
+  artifactKey: Guid(dd1a8e9928e01d045857bac4be19c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/128x128px/store__128x128px.png using Guid(dd1a8e9928e01d045857bac4be19c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608ef8d105fab3262912da2dd17f0887') in 0.034737 seconds
+  Import took 0.043836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/store__256x256px.png
+  artifactKey: Guid(251882ac818eb5643989d4f219724b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/store__256x256px.png using Guid(251882ac818eb5643989d4f219724b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebb1641797819430ddc7693c788fac8') in 0.030664 seconds
+  Import took 0.033796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/store__256x256px.png
+  artifactKey: Guid(3bceb5dbe6eb07c4c821c5aa947291a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/store__256x256px.png using Guid(3bceb5dbe6eb07c4c821c5aa947291a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da16474e1833173381f77ab3aff435f') in 0.032617 seconds
+  Import took 0.035031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140712 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/32x32px/store__32x32px.png
+  artifactKey: Guid(a2878351fbe1420419a4125cf06e08d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/32x32px/store__32x32px.png using Guid(a2878351fbe1420419a4125cf06e08d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b53e2bf1e3f7f8d5d39eb4a85934072') in 0.031017 seconds
+  Import took 0.033535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/128x128px/store__128x128px.png
+  artifactKey: Guid(6c8d03bcff58789498a35e99723d642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/128x128px/store__128x128px.png using Guid(6c8d03bcff58789498a35e99723d642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a729c98608bb5df3211bf578cca5dbff') in 0.028347 seconds
+  Import took 0.030726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/64x64px/store__64x64px.png
+  artifactKey: Guid(eaaf5b1d19f09164dae9accf152e1131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/64x64px/store__64x64px.png using Guid(eaaf5b1d19f09164dae9accf152e1131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e11faf67722e41869df19a7aa3b3098') in 0.035750 seconds
+  Import took 0.038498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/32x32px/store__32x32px.png
+  artifactKey: Guid(0762e7bb9eaf90f4fb5614386041a0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/32x32px/store__32x32px.png using Guid(0762e7bb9eaf90f4fb5614386041a0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548e3162a7a1283764ed1607c7607baf') in 0.031285 seconds
+  Import took 0.034191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/store_256x256_shine.png
+  artifactKey: Guid(5b3035f5e942c9f4f88ef0ab6cafd2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/store_256x256_shine.png using Guid(5b3035f5e942c9f4f88ef0ab6cafd2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af4346ed2f8197fd0de629d5ad1404e') in 0.041209 seconds
+  Import took 0.043647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/store_128x128_shine.png
+  artifactKey: Guid(72fa219612d942a4b8a74757b0ea8724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/store_128x128_shine.png using Guid(72fa219612d942a4b8a74757b0ea8724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dcbb07b356d2e81b8135903ecf472a') in 0.032943 seconds
+  Import took 0.035599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/store_256X256.png
+  artifactKey: Guid(8d9f1afad3b2f4348b7e51dfd0c478b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/store_256X256.png using Guid(8d9f1afad3b2f4348b7e51dfd0c478b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756dc03c3e82d5a7af06ba9d7cff206d') in 0.025951 seconds
+  Import took 0.028307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/store_128x128.png
+  artifactKey: Guid(039d305127ee0f6468c3be7692b9774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/store_128x128.png using Guid(039d305127ee0f6468c3be7692b9774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5915c09d6ed9216c2964e0e2e9f7ea') in 0.022583 seconds
+  Import took 0.024877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/store_64x64_shine.png
+  artifactKey: Guid(e0ae952f8e113ba4cb44bb2f14d32e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/store_64x64_shine.png using Guid(e0ae952f8e113ba4cb44bb2f14d32e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871577815e4e11aa93da39fc51cf56f9') in 0.021834 seconds
+  Import took 0.024057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/store_512x512.png
+  artifactKey: Guid(7715e197b34063d41a759e41244f4747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/store_512x512.png using Guid(7715e197b34063d41a759e41244f4747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d993afbf55c8d97f98a5f2268cd772') in 0.027991 seconds
+  Import took 0.030286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/store_128x128.png
+  artifactKey: Guid(039d305127ee0f6468c3be7692b9774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/store_128x128.png using Guid(039d305127ee0f6468c3be7692b9774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5915c09d6ed9216c2964e0e2e9f7ea') in 0.009408 seconds
+  Import took 0.011845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/store_512x512_shine.png
+  artifactKey: Guid(e62bc68edd129294cb00258eb55e91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/store_512x512_shine.png using Guid(e62bc68edd129294cb00258eb55e91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ec6741b7c7cf9945c69928b4429ed5') in 0.027360 seconds
+  Import took 0.029765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/store_512x512.png
+  artifactKey: Guid(7715e197b34063d41a759e41244f4747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/store_512x512.png using Guid(7715e197b34063d41a759e41244f4747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d993afbf55c8d97f98a5f2268cd772') in 0.012556 seconds
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/store_512x512_shine.png
+  artifactKey: Guid(e62bc68edd129294cb00258eb55e91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/store_512x512_shine.png using Guid(e62bc68edd129294cb00258eb55e91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ec6741b7c7cf9945c69928b4429ed5') in 0.016986 seconds
+  Import took 0.019876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182863 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/512x512px/stats__512x512px.png
+  artifactKey: Guid(24d036a7ed6b10248ac51fe4029b0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/512x512px/stats__512x512px.png using Guid(24d036a7ed6b10248ac51fe4029b0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9b1b1ab405b4dfedd9a667333e7d1c') in 0.030046 seconds
+  Import took 0.032663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/store_64x64.png
+  artifactKey: Guid(0d0d000d32bdc7a4693dded8a1924bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/store_64x64.png using Guid(0d0d000d32bdc7a4693dded8a1924bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd135849db780651857146c81017cb349') in 0.024694 seconds
+  Import took 0.027009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/store_32x32.png
+  artifactKey: Guid(e845b5fa3e209f94d9bd7a6756823eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/store_32x32.png using Guid(e845b5fa3e209f94d9bd7a6756823eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb1253e2ec5b6d06624813e048fbd64') in 0.027273 seconds
+  Import took 0.030421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/512x512px/stats__512x512px.png
+  artifactKey: Guid(2fc6bc0b70d49ab49b24a5f1e3615205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/512x512px/stats__512x512px.png using Guid(2fc6bc0b70d49ab49b24a5f1e3615205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ecaf30a479b39cf513c9e2ba7685a6') in 0.025891 seconds
+  Import took 0.029083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/128x128px/stats__128x128px.png
+  artifactKey: Guid(b33e422f09dec5b41b3d7c3fbebfabff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/128x128px/stats__128x128px.png using Guid(b33e422f09dec5b41b3d7c3fbebfabff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509ea4e9f0f6f3c9af365f43bd75025e') in 0.029394 seconds
+  Import took 0.032440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/stats__256x256px.png
+  artifactKey: Guid(b3c9c106f7bcaea48a2d44a46b86113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/256x256px/stats__256x256px.png using Guid(b3c9c106f7bcaea48a2d44a46b86113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6a10a69b75e12a076cd4fc32a31e4c') in 0.031165 seconds
+  Import took 0.034457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/stats__256x256px.png
+  artifactKey: Guid(73d50145a1a65634092af947ef5143ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/256x256px/stats__256x256px.png using Guid(73d50145a1a65634092af947ef5143ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb7d99884f74bd34e409595dc8d6e61') in 0.031569 seconds
+  Import took 0.035368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/128x128px/stats__128x128px.png
+  artifactKey: Guid(8669b5908f3d47e41aae6fd23dde29b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/128x128px/stats__128x128px.png using Guid(8669b5908f3d47e41aae6fd23dde29b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc990baabd3c53ae66c7eba1703ca9e3') in 0.023815 seconds
+  Import took 0.027669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/32x32px/stats__32x32px.png
+  artifactKey: Guid(978d6cc4440cc944aaf300d56c0cb566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/normal/32x32px/stats__32x32px.png using Guid(978d6cc4440cc944aaf300d56c0cb566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b8fd328e05e9b8a4e3d02b47c17c66') in 0.024528 seconds
+  Import took 0.027355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/64x64px/stats__64x64px.png
+  artifactKey: Guid(a81c9340b0d1aa94a8e928db90516ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/64x64px/stats__64x64px.png using Guid(a81c9340b0d1aa94a8e928db90516ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0457587123d653f200a858b16f698c9') in 0.027203 seconds
+  Import took 0.030498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/store_32x32_shine.png
+  artifactKey: Guid(b9e521811222328489dad91a00db7dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/store_32x32_shine.png using Guid(b9e521811222328489dad91a00db7dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499dda7e14b269a92c3296a5406062b0') in 0.026774 seconds
+  Import took 0.029496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119278 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/stats_256x256_shine.png
+  artifactKey: Guid(41ee3804dfe9bab46b1dd83e2ea4a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/stats_256x256_shine.png using Guid(41ee3804dfe9bab46b1dd83e2ea4a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a402f7e44e96ac54d913187e6d71e778') in 0.023645 seconds
+  Import took 0.025973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/stats_512x512_shine.png
+  artifactKey: Guid(56626f95455ea3f468e818ef1549fd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/stats_512x512_shine.png using Guid(56626f95455ea3f468e818ef1549fd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e96d533e1fc8b3a1e4b7c787e14077f') in 0.027250 seconds
+  Import took 0.029583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/stats_512x512.png
+  artifactKey: Guid(b0459ac4cf519044ca50b27992b9356e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/stats_512x512.png using Guid(b0459ac4cf519044ca50b27992b9356e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f7cb5b037169154b1028e7af0d85a7') in 0.028913 seconds
+  Import took 0.031455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/32x32px/stats__32x32px.png
+  artifactKey: Guid(113c9820c8502b44e8b1e62fc1a217d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/update 1.1/icons/shine/32x32px/stats__32x32px.png using Guid(113c9820c8502b44e8b1e62fc1a217d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f05c03cbe1c83e06eb0fe9582cc41f') in 0.018172 seconds
+  Import took 0.020498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/stats_256X256.png
+  artifactKey: Guid(b101fc380bfc6c84694290fa5653c34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/stats_256X256.png using Guid(b101fc380bfc6c84694290fa5653c34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf4c56a40efaff6d271d8c8fc2a39f2') in 0.024019 seconds
+  Import took 0.027003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/stats_128x128_shine.png
+  artifactKey: Guid(492f6948b48200c44a32120b1fa03876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/stats_128x128_shine.png using Guid(492f6948b48200c44a32120b1fa03876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041e5784f6b3b832261b9753e0805785') in 0.022852 seconds
+  Import took 0.025607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/stats_128x128.png
+  artifactKey: Guid(8a9005a0a3ec3eb4e82d31f286bafd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/stats_128x128.png using Guid(8a9005a0a3ec3eb4e82d31f286bafd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fc4e4442419bd045d1acd55694b602') in 0.025628 seconds
+  Import took 0.028686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/stats_64x64_shine.png
+  artifactKey: Guid(14b6c52d24700184f844668aee5b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/stats_64x64_shine.png using Guid(14b6c52d24700184f844668aee5b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a3afef2aadb529e6aa6f594b53e49e') in 0.102073 seconds
+  Import took 0.104428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144279 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/stats_32x32.png
+  artifactKey: Guid(f13e4c493108b4a4399cabdfad3be821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/stats_32x32.png using Guid(f13e4c493108b4a4399cabdfad3be821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c97a14a524924213a9409b6439bd75') in 0.021536 seconds
+  Import took 0.024503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/stats_64x64.png
+  artifactKey: Guid(f4a70dd7293ce81438bcd636b69d30c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/stats_64x64.png using Guid(f4a70dd7293ce81438bcd636b69d30c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ed22999d05d6323a0c3a5a6e0167b2') in 0.027899 seconds
+  Import took 0.030742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/stats_32x32.png
+  artifactKey: Guid(f13e4c493108b4a4399cabdfad3be821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/stats_32x32.png using Guid(f13e4c493108b4a4399cabdfad3be821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c97a14a524924213a9409b6439bd75') in 0.012255 seconds
+  Import took 0.014837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/stats_32x32_shine.png
+  artifactKey: Guid(a385b63b348845f47a4c54def9e0a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/stats_32x32_shine.png using Guid(a385b63b348845f47a4c54def9e0a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24b0050c91a34e137196e39a8f19fe') in 0.022207 seconds
+  Import took 0.024749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399291 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/sound_low_256x256_shine.png
+  artifactKey: Guid(ce8b0f7b6e77a1a47ac0d9a2eb8ab35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/sound_low_256x256_shine.png using Guid(ce8b0f7b6e77a1a47ac0d9a2eb8ab35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc5032c6ac7dd48d9d5b20e68b54175') in 0.024228 seconds
+  Import took 0.026829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/sound_low_512x512_shine.png
+  artifactKey: Guid(9d98296592cf96f4e9acf9d80a9b64a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/sound_low_512x512_shine.png using Guid(9d98296592cf96f4e9acf9d80a9b64a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18da6050f566753de8c7b9be06a71c2') in 0.027537 seconds
+  Import took 0.030388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/sound_low_512x512.png
+  artifactKey: Guid(8aa86fa58f7892b46815a314466bb1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/sound_low_512x512.png using Guid(8aa86fa58f7892b46815a314466bb1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e09fa6dabe36c0ca131c362e00784b9') in 0.030641 seconds
+  Import took 0.033443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408684 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_low_64x64_shine (1).png
+  artifactKey: Guid(7aca3421d4b136f4891d7d1655aa6238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_low_64x64_shine (1).png using Guid(7aca3421d4b136f4891d7d1655aa6238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f25e5a142328177ff356f7a33d4c20') in 0.030486 seconds
+  Import took 0.035317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/sound_low_128x128_shine.png
+  artifactKey: Guid(91bf224597a9af84babc187dffc20cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/sound_low_128x128_shine.png using Guid(91bf224597a9af84babc187dffc20cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45fb648cb2edeb1b2bd723a037bd60d') in 0.027559 seconds
+  Import took 0.030087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/sound_low_32x32.png
+  artifactKey: Guid(958ac6ff926e67d44838aa29509d353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/sound_low_32x32.png using Guid(958ac6ff926e67d44838aa29509d353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8c9d39dda897f34a0cba4b327b4b2a') in 0.024331 seconds
+  Import took 0.026548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_low_64x64_shine.png
+  artifactKey: Guid(7eb13b70b631c3544bd65fce89c6eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_low_64x64_shine.png using Guid(7eb13b70b631c3544bd65fce89c6eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56face2da5b1d2036b18541d224fd1c1') in 0.021211 seconds
+  Import took 0.023829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/sound_high_512x512.png
+  artifactKey: Guid(7458e880ab9f4c841afd2ce9f426f28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/sound_high_512x512.png using Guid(7458e880ab9f4c841afd2ce9f426f28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f424cccf68ef12cebe3a2b7180c4464') in 0.031200 seconds
+  Import took 0.033683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/sound_high_256X256.png
+  artifactKey: Guid(8c3b8a666835f9b46a3f98c920cbec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/sound_high_256X256.png using Guid(8c3b8a666835f9b46a3f98c920cbec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9122fe51cf89e5f32e7c74d6e1f924f') in 0.024641 seconds
+  Import took 0.027133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/sound_low_128x128.png
+  artifactKey: Guid(261664967223c2f43a54628beda08846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/sound_low_128x128.png using Guid(261664967223c2f43a54628beda08846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef262ba76e039af447e5e14bb927a73') in 0.026391 seconds
+  Import took 0.028835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/sound_low_256X256.png
+  artifactKey: Guid(e5c53854fabafee4f9651331c5ee7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/sound_low_256X256.png using Guid(e5c53854fabafee4f9651331c5ee7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae2702303044246a82bbabb3573cf0a') in 0.025749 seconds
+  Import took 0.028093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/sound_high_512x512_shine.png
+  artifactKey: Guid(1e61abaefae1a0c4c9f76c997006fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/sound_high_512x512_shine.png using Guid(1e61abaefae1a0c4c9f76c997006fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad9715836088363227fb230f2334668') in 0.032065 seconds
+  Import took 0.034760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/sound_high_256x256_shine.png
+  artifactKey: Guid(5412145803f71644899ca9dd0a1fa51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/sound_high_256x256_shine.png using Guid(5412145803f71644899ca9dd0a1fa51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef22fc02b0a59081c1644abcddb0ab9e') in 0.128898 seconds
+  Import took 0.132692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/sound_low_64x64.png
+  artifactKey: Guid(20e0e1920ff907340b524bdb2db9a3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/sound_low_64x64.png using Guid(20e0e1920ff907340b524bdb2db9a3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bde2f4880a0dbf6c4dc52bedc3893e4') in 0.031046 seconds
+  Import took 0.033959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/sound_high_128x128_shine.png
+  artifactKey: Guid(78f887be281051d418226d8f55b2e378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/sound_high_128x128_shine.png using Guid(78f887be281051d418226d8f55b2e378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985175b2210864c4188760746a435ad2') in 0.034390 seconds
+  Import took 0.038146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/sound_high_64x64.png
+  artifactKey: Guid(c808d613def42364aa064b6edc886b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/64x64px/sound_high_64x64.png using Guid(c808d613def42364aa064b6edc886b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec51f0edcc0205e49173ac358cf083b') in 0.038067 seconds
+  Import took 0.041215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/snow_512x512.png
+  artifactKey: Guid(92ea513acd22c434b922a2628ba2cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/512x512/snow_512x512.png using Guid(92ea513acd22c434b922a2628ba2cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a287e0093927ff1990787c27d63f37') in 0.035561 seconds
+  Import took 0.038408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/snow_128x128_shine.png
+  artifactKey: Guid(88003f6e80f19b04584e40580247d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/128x128/snow_128x128_shine.png using Guid(88003f6e80f19b04584e40580247d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd483978b99e73315c3b79c778e36ce8f') in 0.028258 seconds
+  Import took 0.031043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/snow_256X256.png
+  artifactKey: Guid(670087b66b4e3af47b55c6148f674bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/256x256px/snow_256X256.png using Guid(670087b66b4e3af47b55c6148f674bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f47151f453e876de29db93eea25576') in 0.029088 seconds
+  Import took 0.032019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/sound_high_128x128.png
+  artifactKey: Guid(45006646caa805a4fb4ef82a491ff736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/128x128px/sound_high_128x128.png using Guid(45006646caa805a4fb4ef82a491ff736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffc09170fd66b65d0280f44e8fb0097') in 0.029069 seconds
+  Import took 0.032451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_high_64x64_shine (1).png
+  artifactKey: Guid(15385eb4734d65a4d9ab17e3df147388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_high_64x64_shine (1).png using Guid(15385eb4734d65a4d9ab17e3df147388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49406e0891ce5f7d608de4edc887a74') in 0.026583 seconds
+  Import took 0.029228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/snow_512x512_shine.png
+  artifactKey: Guid(3aae6d87af5e7ab4f90297f356b10146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/512x512/snow_512x512_shine.png using Guid(3aae6d87af5e7ab4f90297f356b10146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488fae245d68c8100a07bc065dc6ea3b') in 0.038730 seconds
+  Import took 0.041166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/sound_high_32x32.png
+  artifactKey: Guid(b50dd9fff973ab040a928cfac8f922b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/normal_icon/32x32px/sound_high_32x32.png using Guid(b50dd9fff973ab040a928cfac8f922b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82678baaddd9f03e51fd44011a5ba6c6') in 0.025817 seconds
+  Import took 0.028426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/sound_low_32x32_shine.png
+  artifactKey: Guid(f8a909dd81de6924aa72cbeb88e48447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/sound_low_32x32_shine.png using Guid(f8a909dd81de6924aa72cbeb88e48447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58858c2f8ba0c1298da1f240d62c473') in 0.022825 seconds
+  Import took 0.025133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/sound_high_32x32_shine.png
+  artifactKey: Guid(5ba3f542646bed649a14092f178142b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/32x32/sound_high_32x32_shine.png using Guid(5ba3f542646bed649a14092f178142b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19163ab182e5fd994e24e8a5a34ec997') in 0.026510 seconds
+  Import took 0.029217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_high_64x64_shine.png
+  artifactKey: Guid(0e446d17a1c160543bcb5bef8b09181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/64x64/sound_high_64x64_shine.png using Guid(0e446d17a1c160543bcb5bef8b09181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1561ee63707a2a74a5e8db8fc04528b') in 0.027294 seconds
+  Import took 0.030291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/snow_256x256_shine.png
+  artifactKey: Guid(dc72d6c948d7e5d4188ded3d3bfacc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HONETi/flatt_gui_dark_elements/icons/shine_icons/256x256/snow_256x256_shine.png using Guid(dc72d6c948d7e5d4188ded3d3bfacc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab4ea0ce8b9b1ee3824fa5156d709c5') in 0.028569 seconds
+  Import took 0.031349 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -437,73 +1746,131 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.748 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1933.
-Total: 1.665200 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.394100 ms  DeleteObjects: 0.057000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001026 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 2.574600 ms (FindLiveObjects: 0.322700 ms CreateObjectMapping: 0.105500 ms MarkObjects: 2.080100 ms  DeleteObjects: 0.065000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 1.965500 ms (FindLiveObjects: 0.344700 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.515300 ms  DeleteObjects: 0.052000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000873 seconds.
+Registered in 0.001288 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  0.870 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 2.132800 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.078900 ms MarkObjects: 1.715600 ms  DeleteObjects: 0.097200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 1.807200 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.047900 ms MarkObjects: 1.448300 ms  DeleteObjects: 0.089300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000814 seconds.
+Registered in 0.000851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 1.786400 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.526800 ms  DeleteObjects: 0.047200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 667.892136 seconds.
+  path: Assets/Scenes/Play Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d9fa9e04e44a21dba5c8da469e9d8a') in 0.014198 seconds
+  Import took 0.016490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.365012 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(e7d96350445f6b3439f4ba3dace6e588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(e7d96350445f6b3439f4ba3dace6e588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5121a2ad296d6413a87e6a0b02f0fdad') in 0.004474 seconds
+  Import took 0.006815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.782209 seconds.
+  path: Assets/Scenes/Play Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39381ae8b1ac21b515a67cbbec03baa') in 0.004113 seconds
+  Import took 0.006692 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2021.
+Total: 1.589300 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.347000 ms  DeleteObjects: 0.054400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 16.081870 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(e7d96350445f6b3439f4ba3dace6e588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(e7d96350445f6b3439f4ba3dace6e588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164edde3d3df430f7a0018a2fd905521') in 0.013011 seconds
+  Import took 0.015396 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001073 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
@@ -512,53 +1879,133 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.855 seconds
+- Completed reload, in  0.799 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.8 MB.
-System memory in use after: 70.8 MB.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 2.597800 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.187500 ms  DeleteObjects: 0.060400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 2.015400 ms (FindLiveObjects: 0.154300 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.766300 ms  DeleteObjects: 0.050000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000802 seconds.
+Registered in 0.000890 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
+- Completed reload, in  0.882 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.8 MB.
-System memory in use after: 70.8 MB.
+Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1949.
-Total: 3.950500 ms (FindLiveObjects: 0.331700 ms CreateObjectMapping: 0.125100 ms MarkObjects: 3.401100 ms  DeleteObjects: 0.090900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 1.715600 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.456600 ms  DeleteObjects: 0.052000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 1.663200 ms (FindLiveObjects: 0.171700 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.406300 ms  DeleteObjects: 0.040500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 303.279095 seconds.
+  path: Assets/Audio/phaserUp5.ogg
+  artifactKey: Guid(0b5b72a8becb1c949a3be5a253c2d936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/phaserUp5.ogg using Guid(0b5b72a8becb1c949a3be5a253c2d936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b70b2e9f4e891b8f80a865fe03b5b7') in 0.062470 seconds
+  Import took 0.065145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.916857 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(7c684f43df7e86640944c737d64181a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(7c684f43df7e86640944c737d64181a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91a9e3d700c8798c9a3bb533cfe0f07') in 0.006731 seconds
+  Import took 0.009574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.810208 seconds.
+  path: Assets/Audio/powerUp6.ogg
+  artifactKey: Guid(1894becce7ab26446bd8905a6e2bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/powerUp6.ogg using Guid(1894becce7ab26446bd8905a6e2bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f178f89253c09e960c596e665bc1d5d6') in 0.019569 seconds
+  Import took 0.022290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/Audio/powerUp6.ogg
+  artifactKey: Guid(1894becce7ab26446bd8905a6e2bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/powerUp6.ogg using Guid(1894becce7ab26446bd8905a6e2bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f178f89253c09e960c596e665bc1d5d6') in 0.009624 seconds
+  Import took 0.012365 seconds .
+
+========================================================================
+Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000846 seconds.
+Registered in 0.000949 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2037.
+Total: 3.569200 ms (FindLiveObjects: 0.317400 ms CreateObjectMapping: 0.216400 ms MarkObjects: 2.940200 ms  DeleteObjects: 0.093400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2037.
+Total: 2.185800 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.081500 ms MarkObjects: 1.781100 ms  DeleteObjects: 0.063600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -569,127 +2016,27 @@ Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.8 MB.
-System memory in use after: 70.8 MB.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 1.882700 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.554900 ms  DeleteObjects: 0.048400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2041.
+Total: 1.946900 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.711800 ms  DeleteObjects: 0.041500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 1586.335894 seconds.
+  Time since last request: 242.930103 seconds.
   path: Assets/Scenes/Play Scene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Play Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bba2a15835c5507435c679652d3461d') in 0.013917 seconds
-  Import took 0.016649 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.4 MB.
-System memory in use after: 42.5 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 3.094700 ms (FindLiveObjects: 0.290300 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.632700 ms  DeleteObjects: 0.081700 ms)
+Start importing Assets/Scenes/Play Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03f68f868fcd9d67fce70fbc01a8780') in 0.018211 seconds
+  Import took 0.020650 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000839 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1958.
-Total: 2.209900 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.133900 ms MarkObjects: 1.693900 ms  DeleteObjects: 0.092200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000990 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.0 MB.
-System memory in use after: 71.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1970.
-Total: 3.404200 ms (FindLiveObjects: 0.149600 ms CreateObjectMapping: 0.055300 ms MarkObjects: 3.138200 ms  DeleteObjects: 0.059800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000878 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.090 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1453 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1987.
-Total: 2.032500 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.055100 ms MarkObjects: 1.748000 ms  DeleteObjects: 0.055700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.5 MB.
-System memory in use after: 42.6 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1987.
-Total: 2.589800 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.059700 ms MarkObjects: 2.208400 ms  DeleteObjects: 0.058100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000881 seconds.
+Registered in 0.000793 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
@@ -698,29 +2045,17 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.921 seconds
+- Completed reload, in  0.780 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1453 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1991.
-Total: 1.618700 ms (FindLiveObjects: 0.161300 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.361200 ms  DeleteObjects: 0.048900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 1.567900 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.341300 ms  DeleteObjects: 0.048600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.5 MB.
-System memory in use after: 42.6 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1991.
-Total: 1.861000 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.627600 ms  DeleteObjects: 0.042800 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
