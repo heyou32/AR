@@ -8,10 +8,10 @@ public class GameScene : MonoBehaviour
 {
     public GameObject[] models;
     public Color[] colors;
-    public GameObject cube;
     ARRaycastManager arrm;
     GameObject player;
     GameObject playerPrefab;
+    public GameObject planePrefab;
     public GameObject menuUI;
     public GameObject quitUI;
     bool menuOn;
@@ -22,26 +22,38 @@ public class GameScene : MonoBehaviour
         //print("color = "+PlayerPrefs.GetInt("COLOR"));
         arrm = GetComponent<ARRaycastManager>();
         playerPrefab = models[PlayerPrefs.GetInt("Model")];
-        //GameObject ex = Instantiate(playerPrefab);
-       quitUI.SetActive(false);
+        //player = models[PlayerPrefs.GetInt("Model")];
+        quitUI.SetActive(false);
     }
+    //bool click;
+    Ray ray = new Ray();
     void Update()
     {
-        if (gameObject.CompareTag("Paint"))
-            print(0);
-       bool click=false;
-        if (Input.GetMouseButtonDown(0) &&click == false)
+        GameObject active = GameObject.FindGameObjectWithTag("Model");
+        if (Input.GetMouseButtonDown(0) && active == null)
         {
-            click = true;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hitinfo;
             if (Physics.Raycast(ray, out hitinfo, float.MaxValue))
             {
-                //GameObject p = Instantiate(player);
+                print("d");
                 player = Instantiate(playerPrefab);
+                GameObject plane = Instantiate(planePrefab);
                 player.transform.position = hitinfo.point;
+                plane.transform.position = hitinfo.point;
                 player.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-                TitleScene.instance.ColorChange(colors[PlayerPrefs.GetInt("COLOR")]);
+                ColorChange(colors[PlayerPrefs.GetInt("COLOR")]);
+            }
+        }
+        void ColorChange(Color value)
+        {
+            GameObject[] mats = GameObject.FindGameObjectsWithTag("Paint");
+            if (mats != null)
+            {
+                for (int i = 0; i < mats.Length; i++)
+                {
+                    mats[i].GetComponent<MeshRenderer>().material.color = value;
+                }
             }
         }
 
@@ -56,8 +68,8 @@ public class GameScene : MonoBehaviour
 
         if (mute)
             AudioListener.volume = 0;
-        else 
-            AudioListener.volume=1;
+        else
+            AudioListener.volume = 1;
     }
     #region Gear
     public GameObject d;
@@ -78,6 +90,7 @@ public class GameScene : MonoBehaviour
         }
     }
     #endregion
+    #region MenuUI
     public void Menu()
     {
         menuOn = !menuOn;
@@ -102,4 +115,5 @@ public class GameScene : MonoBehaviour
     {
         quitUI.SetActive(false);
     }
+    #endregion
 }

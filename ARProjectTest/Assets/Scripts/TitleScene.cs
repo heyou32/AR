@@ -12,12 +12,20 @@ public class TitleScene : MonoBehaviour
         instance = this;
     }
     #endregion
+    AudioSource startSFX;
+    AudioSource btnSFX;
+    public GameObject button;
     public GameObject[] carPrefabs;
     public Color[] colors;
     public Transform point;
     GameObject seleted;
     bool state = true;
     bool ready;
+    private void Start()
+    {
+        startSFX = GetComponent<AudioSource>();
+        btnSFX = button.GetComponent<AudioSource>();
+    }
     private void Update()
     {
         //print("model = " + PlayerPrefs.GetInt("Model"));
@@ -28,7 +36,9 @@ public class TitleScene : MonoBehaviour
             car.transform.Rotate(new Vector3(0, 1, 0) * Time.deltaTime * 50);
         }
         if (ready)
-            seleted.transform.position = Vector3.MoveTowards(seleted.transform.position, new Vector3(0, 0, -10), 77 * Time.deltaTime);
+        {
+            seleted.transform.position = Vector3.MoveTowards(seleted.transform.position, new Vector3(0, 0, -10), 50 * Time.deltaTime);
+        }
     }
     #region Property
     int modelNum;
@@ -55,6 +65,7 @@ public class TitleScene : MonoBehaviour
     #region Car Model
     void Car(int a)
     {
+        btnSFX.Play();
         if (GameObject.FindWithTag("Model"))
             Destroy(GameObject.FindWithTag("Model"));
         GameObject car = Instantiate(carPrefabs[a - 1]);
@@ -80,10 +91,14 @@ public class TitleScene : MonoBehaviour
     #region Color
     public void ColorChange(Color value)
     {
+        btnSFX.Play();
         GameObject[] mats = GameObject.FindGameObjectsWithTag("Paint");
-        for (int i = 0; i < mats.Length; i++)
+        if (mats != null)
         {
-            mats[i].GetComponent<MeshRenderer>().material.color = value;
+            for (int i = 0; i < mats.Length; i++)
+            {
+                mats[i].GetComponent<MeshRenderer>().material.color = value;
+            }
         }
     }
 
@@ -121,6 +136,7 @@ public class TitleScene : MonoBehaviour
     #region Start Button
     public void StartBtn()
     {
+        startSFX.Play();
         state = false;
         seleted = GameObject.FindWithTag("Model");
         seleted.transform.eulerAngles = new Vector3(0, 180, 0);
